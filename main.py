@@ -3,9 +3,10 @@
 #####################
 
 def sumSquareOfDigits(n):
-    #print("Summing square of digits... ")
+    #print("Summing the square of the digits", end="")
     sum = 0
     while n != 0:
+        print(". ",end="")
         sum = sum + (n % 10)**2
         n = n // 10
 
